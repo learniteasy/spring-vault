@@ -20,4 +20,5 @@ public class SpringBootVaultHelloWorldApplication {
 	private void postConstruct() {
 		System.out.println("My password is: " + password);
 	}
+	
 }
