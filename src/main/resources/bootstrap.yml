@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: hello
+    cloud:
+        vault:
+            token: s.YupolRCUmVLd2wTlFR0UUfDq
+            scheme: http

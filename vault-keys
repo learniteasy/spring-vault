@@ -1,0 +1,22 @@
+vault init -key-shares=5 -key-threshold=2
+WARNING! The "vault init" command is deprecated. Please use "vault operator
+init" instead. This command will be removed in Vault 1.1.
+
+Unseal Key 1: k0BLUdDFcBNC6JdWE+tdxrjgggKzhhFAGlCsRv9f/Dgc
+Unseal Key 2: hxxCKWjj1ud4jFYcxqu8zrD3pGuIQfwxAdk5cY1r4aK1
+Unseal Key 3: +dX6NuHPHjbvKL1RU9luC3UOiJhivwSW0oXesa0sJ+jQ
+Unseal Key 4: E//ifLUQ1ccQQnEuddOnwb+JV49PqWLE+onyM5LD1QbZ
+Unseal Key 5: W/zI17NFv2vUeC+YY0GwGGbPAn54601FhJx2PB3Ct7SF
+
+Initial Root Token: s.YupolRCUmVLd2wTlFR0UUfDq
+
+Vault initialized with 5 key shares and a key threshold of 2. Please securely
+distribute the key shares printed above. When the Vault is re-sealed,
+restarted, or stopped, you must supply at least 2 of these keys to unseal it
+before it can start servicing requests.
+
+Vault does not store the generated master key. Without at least 2 key to
+reconstruct the master key, Vault will remain permanently sealed!
+
+It is possible to generate new unseal keys, provided you have a quorum of
+existing unseal keys shares. See "vault operator rekey" for more information.
